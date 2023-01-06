@@ -153,6 +153,9 @@ footer{
     font-size: 15px;
     margin-left: 0px;
 }
+.future a{
+    text-decoration: none;
+}
 .future img{
     padding-right: 10px;
 }
