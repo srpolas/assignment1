@@ -78,17 +78,17 @@ header{
     font-weight: 700;
     font-size: 40px;
 }
-.conteiner{
+.container{
     display: flex;
     justify-content: space-around;
 }
-.conteiner img{
+.container img{
     height: 70px;
 }
-.conteiner h3{
+.container h3{
     font-size: 22px;     
 }
-.conteiner p{
+.container p{
     color: gray;
     font-size: 20px;
 }
