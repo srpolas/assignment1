@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* max-width: 1600px; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header area Starts */
+
+header{
+    background-image: url(./images/banner/banner3.png);
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.header-text{
+        text-align: right;
+        padding-top: 100px;
+        padding-left: 700px;
+        max-width: 500px;
+        color: #fff;        
+}
+.header-text h1{
+    font-size: 45px;
+}
+
+.headerbtn{
+    color: #005FAC;
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0;
+    font-size: 15px;
+}
+
+
+
+/* Header area Ends  */
+
+
+
+/* Feature area Starts */
+
+.feature{
+    max-height:650px;
+    max-width: 1200px;
+    display: flex;
+    margin: 100px 100px;
+}
+.feature-text{
+    margin: 130px ;
+}
+.feature-text h2{
+    font-weight: 900;
+    font-size: 40px;
+}
+.feature-text p{
+    color: grey;
+}
+.fa-solid{
+    color: green;
+    padding-right: 5px;
+}
+
+/* Feature area Ends */
+
+
+/* My Plans Section Starts Here */
+
+.myplans{
+    margin: 50px 130px;
+    max-width: 1000px;
+    text-align: center;
+}
+.myplans h2{
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner img{
+    height: 70px;
+}
+.conteiner h3{
+    font-size: 22px;     
+}
+.conteiner p{
+    color: gray;
+    font-size: 20px;
+}
+
+/* My Plans Section Ends Here */
+
+
+/* Banner Area Starts Here */
+
+.banner {
+    display: flex;
+    margin-left: 130px;
+    background-image: url(./images/gradient1.png),url(./images/watch.png);
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+}
+
+.banner-text{
+    margin-left: 50px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.banner-text button{
+    padding: 15px 40px;
+    font-size: 15px;
+    color: #005FAC;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    
+}
+
+/* Banner Area Ends Here  */
+
+
+
+
+footer{
+    display: flex;
+    background-color: #151414;
+    color: #fff;
+    gap: 100px;
+    padding: 20px ;
+}
+
+
+
+.future {
+    margin-left: 100px ;
+    max-width:500px; ;
+}
+.future h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+ .subscribe{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.future img{
+    padding-right: 10px;
+}
+
+.subscribe input{
+    padding: 10px 10px;
+    background-color: #151414;
+    border: 1px solid lightgray ;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+.subscribe button{
+    background-color: #005FAC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px ;
+    border: 0;
+
+}
